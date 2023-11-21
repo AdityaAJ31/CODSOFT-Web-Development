@@ -1,0 +1,123 @@
+body {
+  background-image: url('bg.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+header p {
+    margin: 10px 0;
+}
+
+section {
+    padding: 40px 0;
+}
+
+section h2 {
+    color: #333;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+li {
+    background-color: #4285f4;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 5px;
+    list-style-type: none;
+    margin: 4px;
+}
+
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.project {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.project:hover{
+    background-color: #ddd;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.skills-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skill {
+    background-color: #4285f4;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.skill:hover {
+    background-color: #0f9d58;
+}
+
+.body{
+    margin: 50px;
+    font-family: 'Arial', sans-serif;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+.profile{
+    border-radius: 100%;
+    background-image: url('me.jpg');
+    width: 50px;
+    height: 500px;
+}
+
+img{
+    border-radius: 100%;
+    background-image: url('me.jpg');
+    width: 100px;
+    height: 100px;
+}
